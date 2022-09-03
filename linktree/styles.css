@@ -1,0 +1,111 @@
+body{
+    background-color: lavender;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    letter-spacing: 2px;
+}
+
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* margin-top: 10%; */ 
+    height: auto;
+    max-width: 200px;
+
+    border-radius: 50%;
+}
+
+/* .profile-name{ 
+    text-align: center;
+    padding: 30px; space above 
+    font-size: 28px; 
+}  */ 
+
+@font-face {
+    font-family: "love-rabbit";
+    src: url(fonts/love-rabbit-font/LoveRabbitPersonalUse-lgRaZ.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face
+{
+    font-family: "cute-egg";
+    src: url(fonts/cute-egg-font/CuteEgg-nR9VO.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+title{
+    display:block;
+    font-family: "cute-egg";
+    color:brown;
+    text-align: center;
+    padding: 30px; 
+    font-size: 30px; 
+}
+
+/*
+.links{
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    padding: 20px;
+
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radiuis: 40px;
+
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: purple;
+    transition: color 1s;
+
+}
+a:hover{
+    color:black;
+    background-color: white;
+} */ 
+
+/*
+.link-picture{
+height:auto; 
+max-width: 300px;
+display: block;
+margin-right: auto;
+margin-left: auto;
+position: relative; 
+
+*/      /* top: -200px; */ 
+
+/*
+float:top;
+} 
+.link-picture:hover{
+    transform: scale(1.1);
+}   */ 
+
+.images{
+    position: relative;
+    margin: 10px auto;
+    overflow: hidden;
+   /* width: 540px; */ 
+}
+.images img{
+    max-width: 300px;
+    display: block;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: auto;
+    margin-bottom: auto;
+}
+.link-picture:hover{
+    transform: scale(1.1);
+}
